@@ -24,7 +24,7 @@ st.markdown("""
 # 2. CARREGAMENTO E TRATAMENTO DOS DADOS (Aba Planilha4)
 @st.cache_data
 def carregar_dados():
-    caminho_excel = r"C:\CIIAGRO2\Situacao_Projetos\projetos.xlsx"
+    caminho_excel = caminho_excel = "projetos.xlsx"
     df = pd.read_excel(caminho_excel, sheet_name='Planilha4')
     
     # Normaliza o nome das colunas
